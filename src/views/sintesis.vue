@@ -5,9 +5,9 @@
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5.bgs.p-5.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general del componente formativo, que enuncia las temáticas desarrolladas y destaca aspectos clave estudiados. Tema central: gestión de redundancia y alta disponibilidad. Temas integradores: clústeres e implantación de sistemas de alta disponibilidad.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

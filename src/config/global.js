@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Identificación de requerimientos',
+    descripcionCurso:
+      'El despliegue e implementación de sistemas, requiere de una serie de componentes de infraestructura y plataforma tecnológica, dentro de los cuales se encuentran los sistemas operativos, sistemas de gestión de base de datos, servidores web, lenguajes o intérpretes de programación, los cuales deben ser definidos antes del inicio del proyecto.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,28 +36,34 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Generalidades sobre requerimientos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Requerimientos no funcionales',
             hash: 't_1_1',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Arquitectura de despliegue de aplicaciones y servicios',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Plataformas de desarrollo e implantación de aplicaciones y servicios',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Introducción a las máquinas virtuales y contenedores',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +113,94 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Plataformas de desarrollo e implantación de aplicaciones y servicios.',
+      referencia:
+        'Facultad Autodidacta. (2021). <i>Instalar la pila de LAMP (Linux, apache, MariaDB y php) en Debian 10</i> [video]. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/AGF4fFuwCEU',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        'Plataformas de desarrollo e implantación de aplicaciones y servicios.',
+      referencia:
+        'Informática DP. (2021). <i>WampServer 3.2.0 - Instalación paso a paso</i> [video]. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/LIubtGr63RM',
+    },
+    {
+      tema:
+        'Plataformas de desarrollo e implantación de aplicaciones y servicios.',
+      referencia:
+        'Ada Lovecode- Didacticode. (2021).  <i>Cómo descargar e instalar XAMPP en Windows 10 2020 para trabajar con Apache, PHP, MySQL, Perl</i> [video]. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/DOZPG4V6-JU',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Interoperabilidad',
+      significado:
+        'capacidad de un sistema de comunicarse con otros sistemas para intercambiar y usar información entre ellos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'IDE',
+      significado:
+        'acrónimo en inglés de <i>Integrated Development Environment</i> (Entornos de Desarrollo Integrado). Es un software especializado que ofrece servicios que facilitan el proceso de construcción de software a desarrolladores.',
+    },
+    {
+      termino: 'HTML5',
+      significado: 'es una versión de HTML.',
+    },
+    {
+      termino: 'HTML',
+      significado:
+        'acrónimo en inglés de <i>HyperText Markup Language</i> (Lenguaje de Marcado de Hipertexto). HTML es el lenguaje de marcado estándar para crear páginas web y se usa para describir la estructura de una página web.',
+    },
+    {
+      termino: '<em>Hosting</em>',
+      significado:
+        'servicio de alojamiento de sitios web indispensable para que sea visualizado por cualquier usuario por medio de internet.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Alarcón, J. M. (2018, 14 junio). <i>¿Qué diferencia hay entre Docker (Contenedores) y Máquinas virtuales (VMware, VirtualBox)?</i> campusMVP.es. ',
+      link:
+        'https://www.campusmvp.es/recursos/post/que-diferencia-hay-entre-docker-contenedores-y-maquinas-virtuales.aspx',
+    },
+    {
+      referencia:
+        'Arroyave, M. H. T., & Cardona, D. (2012). <i>Criterios de evaluación de plataformas de desarrollo de aplicaciones empresariales para ambientes web</i> (Doctoral dissertation, Universidad Tecnológica de Pereira. Facultad de Ingenierías Eléctrica, Electrónica, Física y Ciencias de la Computación. Ingeniería de Sistemas y Computación).',
+    },
+    {
+      referencia:
+        'Lazarte Méndez, J. P. (2019). <i>Contenedores Docker como estrategia de virtualización</i> (Doctoral dissertation).',
+    },
+    {
+      referencia:
+        'Mariño, S. I., Godoy, M. V., Alfonzo, P. L., Acevedo, J. J., Solís, L. G., & Vázquez, A. F. (2012). <i>Accesibilidad en la definición de requerimientos no funcionales</i>. Revisión de herramientas. Multiciencias, 12(3), 305-312.',
+    },
+    {
+      referencia:
+        'Pardo, M. R. V., Tapia, J. A. H., Moreno, A. S. G., & Sánchez, L. F. V. (2018). <i>Comparación de tendencias tecnológicas en aplicaciones web</i>.',
+    },
+    {
+      referencia:
+        'Rodríguez Ramírez, A. M., & Obando Ortiz, F. R. (2005). <i>Análisis comparativo de sistemas operativos de red</i> (Bachelor&#8219;s thesis, QUITO/PUCE/2005).',
+    },
+    {
+      referencia:
+        'Rojo, S. D. V. (2012). <i>Requerimientos No funcionales para aplicaciones Web (Doctoral dissertation, Universidad Nacional de La Plata)</i>.',
+    },
+    {
+      referencia:
+        'Sommerville I. (2011).  <i>Ingeniería del software</i>. México: Addison-Wesley',
+    },
+    {
+      referencia:
+        'Torrico Rojas, L. (2019). <i>Comparar “Máquinas virtuales vs Docker”</i> (Doctoral dissertation).',
     },
   ],
   creditos: [
@@ -150,8 +223,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,22 +239,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortes',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
