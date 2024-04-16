@@ -237,7 +237,7 @@
                 .col-lg-auto.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/39.png', alt='')       
                 .col.my-3
-                  p(data-aos="fade-down").mb-0 Al igual que en las máquinas virtuales, los contenedores requieren de un componente de infraestructura que soporte el sistema operativo anfitrión, el Docker Engine y la creación o aislamiento de las diferentes aplicaciones a través de contenedores que es entregado por el servidor de desarrollo, pruebas y puesta en producción, sea local o propio del equipo de desarrollo o entregado a través de un proveedor como Azure, Google Cloud, AWS, Digital Ocean, entre otras.                    
+                  p(data-aos="fade-down").mb-0 Al igual que en las máquinas virtuales, los contenedores requieren de un componente de infraestructura que soporte el sistema operativo anfitrión, el #[i Docker Engine] y la creación o aislamiento de las diferentes aplicaciones a través de contenedores que es entregado por el servidor de desarrollo, pruebas y puesta en producción, sea local o propio del equipo de desarrollo o entregado a través de un proveedor como Azure, Google Cloud, AWS, Digital Ocean, entre otras.                    
 </template>
 
 <script>

@@ -20,12 +20,12 @@
                 img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')                             
               .col-lg-4.my-3
                 .bg4.p-4.brad.h-100.j(data-aos="fade-left")
-                  p(data-aos="fade-down").mb-0 Este proceso se hace con el fin que el equipo de trabajo pueda entender qué tipo de funcionalidades, complejidad, tiempos, herramientas y tecnologías podrían ser empleadas durante el proceso de construcción y posterior implementación de la solución. Este es un proceso bastante crítico, porque si no se hace de manera correcta y exhaustiva ,el desarrollo del proyecto puede no ser exitoso.  
+                  p(data-aos="fade-down").mb-0 Este proceso se hace con el fin que el equipo de trabajo pueda entender qué tipo de funcionalidades, complejidad, tiempos, herramientas y tecnologías podrían ser empleadas durante el proceso de construcción y posterior implementación de la solución. Este es un proceso bastante crítico, porque si no se hace de manera correcta y exhaustiva, el desarrollo del proyecto puede no ser exitoso.  
 
             h5(data-aos="fade-down").mb-5 Según Sommerville (2011), los requerimientos se pueden clasificar en:         
 
             .row.justify-content-center.mb-5
-              .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0
+              .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0.d-none.d-md-block
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
@@ -34,14 +34,26 @@
                     h4.mb-3 Funcionales
                     p.mb-0 Hace referencia a lo que espera el usuario que ofrezca el sistema a nivel de servicios, como, por ejemplo: registrar comentarios, hacer búsquedas por nombre, etc.
 
-              .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0
+              .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0.d-none.d-md-block
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/8.png", alt="alt")
                   .crd_hover_txt--body.text-white.text-center
                     h4.mb-3 No funcionales
-                    p.mb-0 Son las características y restricciones generales que debe satisfacer el sistema para poder ofrecer los servicios establecidos en los requisitos funcionales, con ciertos niveles de calidad requeridos, por ejemplo: arquitectura del sistema, tiempos de respuesta, capacidad de carga, etc.   
+                    p.mb-0 Son las características y restricciones generales que debe satisfacer el sistema para poder ofrecer los servicios establecidos en los requisitos funcionales, con ciertos niveles de calidad requeridos, por ejemplo: arquitectura del sistema, tiempos de respuesta, capacidad de carga, etc.  
+
+              .col-xl-6.col-md-6.col-11.mb-4.mb-xl-0.d-block.d-md-none
+                .crd_txt.text-white.brad.p-3.text-center.h-100
+                  img.img-a.img-t.mb-4(src="@/assets/curso/temas/7.png", alt="alt")
+                  h4.mb-3 Funcionales
+                  p.mb-0 Hace referencia a lo que espera el usuario que ofrezca el sistema a nivel de servicios, como, por ejemplo: registrar comentarios, hacer búsquedas por nombre, etc.
+
+              .col-xl-6.col-md-6.col-11.mb-4.mb-xl-0.d-block.d-md-none
+                .crd_txt.text-white.brad.p-3.text-center.h-100
+                  img.img-a.img-t.mb-4(src="@/assets/curso/temas/8.png", alt="alt")
+                  h4.mb-3 No funcionales
+                  p.mb-0 Son las características y restricciones generales que debe satisfacer el sistema para poder ofrecer los servicios establecidos en los requisitos funcionales, con ciertos niveles de calidad requeridos, por ejemplo: arquitectura del sistema, tiempos de respuesta, capacidad de carga, etc.                     
 
             .row.justify-content-center.align-items-center.bgw.brad.mb-5(data-aos="flip-down")           
               .col-lg-auto.my-3
@@ -136,7 +148,7 @@
       .col-auto.my-3
         img.img-a.img-t.mov(src='@/assets/curso/temas/20.png', alt='')       
       .col.my-3
-        p(data-aos="fade-down").mb-0 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente. Se recomienda utilizar la estructura de siguiente tabla, para la documentación de requerimientos no funcionales. Sin embargo, se pueden realizar los ajustes y modificaciones que considere enriquecen el proceso.
+        p(data-aos="fade-down").mb-0 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente. Se recomienda utilizar la estructura de la siguiente tabla, para la documentación de requerimientos no funcionales. Sin embargo, se pueden realizar los ajustes y modificaciones que considere enriquecen el proceso.
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1.
