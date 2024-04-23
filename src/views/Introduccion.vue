@@ -71,7 +71,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/3.svg', alt='')         
 
             p(data-aos="fade-down").mt-4 Se trabajará en las generalidades de los requerimientos y sobre todo, situándolos en aquellos que no son funcionales en el proceso de desarrollo; posteriormente, se abordará la arquitectura y el despliegue de aplicaciones y servicios, que posibilitará conocer las necesidades de los clientes a partir de los requisitos no funcionales definidos. 
-            h5(data-aos="fade-down") #[mark.t2.px-2 Bienvenido.]
+            h5.mb-5(data-aos="fade-down") #[mark.t2.px-2 Bienvenido.]
 
 </template>
 
