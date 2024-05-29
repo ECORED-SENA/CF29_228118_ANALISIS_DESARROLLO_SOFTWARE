@@ -223,6 +223,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
@@ -258,8 +264,13 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
