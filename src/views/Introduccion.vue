@@ -17,7 +17,7 @@
               .col-lg-auto.my-3
                 img.img-a.img-t(src='@/assets/curso/temas/2.svg', alt='')       
               .col.my-3
-                p(data-aos="fade-down").mb-0 En este componente formativo se estudiarán las generalidades que soportan la importancia de la realización de un alistamiento de infraestructura, para el adelanto de actividades en el marco del desarrollo y despliegue de software, de acuerdo con el análisis de las necesidades particulares de los clientes.    
+                p(data-aos="fade-down").mb-0 En este componente formativo se estudiarán las generalidades que soportan la importancia de la realización de un alistamiento de infraestructura, para el adelanto de actividades en el marco del desarrollo y despliegue de #[em software], de acuerdo con el análisis de las necesidades particulares de los clientes.    
 
             .row.justify-content-center.align-items-center        
               .col-lg-8.my-3

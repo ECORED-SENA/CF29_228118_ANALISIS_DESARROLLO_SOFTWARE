@@ -15,7 +15,7 @@
             .row.justify-content-center.mb-4  
               .col-lg-4.my-3
                 .bg3.p-4.brad.h-100.j(data-aos="fade-left")
-                  p(data-aos="fade-down").mb-0 El proceso de levantamiento de requerimientos es fundamental al momento de iniciar un proyecto de desarrollo de #[i software]; este permite identificar las características o funcionalidades que debe tener el software a construir o en algunos casos, también permite definir cuáles y qué tipo de restricciones deben ser cubiertas por el equipo de desarrollo, para que el producto sea recibido de manera satisfactoria por el cliente.   
+                  p(data-aos="fade-down").mb-0 El proceso de levantamiento de requerimientos es fundamental al momento de iniciar un proyecto de desarrollo de #[i software]; este permite identificar las características o funcionalidades que debe tener el #[em software] a construir o en algunos casos, también permite definir cuáles y qué tipo de restricciones deben ser cubiertas por el equipo de desarrollo, para que el producto sea recibido de manera satisfactoria por el cliente.   
               .col-lg-4.my-3
                 img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')                             
               .col-lg-4.my-3
@@ -59,7 +59,7 @@
               .col-lg-auto.my-3
                 img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')       
               .col.my-3
-                p(data-aos="fade-down").mb-0 Para el desarrollo de este componente y dada la naturaleza de los requerimientos, se abordarán los no funcionales, de tal manera que se pueda, a partir de la definición de la arquitectura, ser utilizada en el proceso de desarrollo de software, suplir y dar cumplimiento con los requerimientos.  
+                p(data-aos="fade-down").mb-0 Para el desarrollo de este componente y dada la naturaleza de los requerimientos, se abordarán los no funcionales, de tal manera que se pueda, a partir de la definición de la arquitectura, ser utilizada en el proceso de desarrollo de #[em software], suplir y dar cumplimiento con los requerimientos.  
 
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -98,7 +98,7 @@
                 h5 #[mark.t3.px-2 ¡Importante!]
                 p.mb-0.text-white Los requerimientos de producto incluyen los requerimientos de eficiencia, de usabilidad, de fiabilidad y de portabilidad. Un ejemplo de un requerimiento no funcional de producto podría ser que el producto sea desarrollado en HTML5, sin el applet de Java, ni Ajax, esto con el ánimo de garantizar que sea compatible con la mayoría de los navegadores en el mercado actual.
 
-            p(data-aos="fade-down").my-5 Los requerimientos organizacionales provienen directamente de las características de la organización, objetivo para el producto o servicio de software a desarrollar, como, por ejemplo:  
+            p(data-aos="fade-down").my-5 Los requerimientos organizacionales provienen directamente de las características de la organización, objetivo para el producto o servicio de #[em software] a desarrollar, como, por ejemplo:  
 
             .row.justify-content-center.align-items-center.mb-4           
               .col-lg-7.my-3
