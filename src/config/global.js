@@ -146,7 +146,7 @@ export default {
     {
       termino: 'IDE',
       significado:
-        'acrónimo en inglés de <i>Integrated Development Environment</i> (Entornos de Desarrollo Integrado). Es un #[em software] especializado que ofrece servicios que facilitan el proceso de construcción de #[em software] a desarrolladores.',
+        'acrónimo en inglés de <i>Integrated Development Environment</i> (Entornos de Desarrollo Integrado). Es un <i>software</i> especializado que ofrece servicios que facilitan el proceso de construcción de <i>software</i> a desarrolladores.',
     },
     {
       termino: 'HTML5',
